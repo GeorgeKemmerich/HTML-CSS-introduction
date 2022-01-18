@@ -2,9 +2,22 @@ body {
     background-color:rgb(173, 164, 164);
     background-image: url(wp7420853.jpg);
     background-position: center;
+    font-family: Verdana;
 
 }
+.header_image{
+    border: 1px solid white;
+    border-radius:50%;   
+}
+.title{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+    a{
+        text-decoration: underline;
+        color:black
 
+}
 .title, .subtitle{
     color:white
 }
@@ -16,6 +29,12 @@ body {
 .post_title{
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post_image{
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post1{
@@ -34,4 +53,9 @@ body {
     background-color: rgb(180, 53, 53);
     border: 5px solid tomato;
     margin:auto
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
 }
